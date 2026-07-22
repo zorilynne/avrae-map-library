@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avrae Map Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#120e1c;
+    --bg2:#0a0712;
+    --panel:#1b1530;
+    --panel-hi:#241c40;
+    --ink:#f3ecff;
+    --muted:#a99fc4;
+    --line:rgba(176,107,255,.18);
+    --gold:#ffbf5c;
+    --gold2:#ff7a3c;
+    --arcane:#4fd6ff;
+    --magic:#b06bff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:
+      radial-gradient(90% 60% at 50% -10%, rgba(176,107,255,.20), transparent 60%),
+      radial-gradient(70% 50% at 100% 0%, rgba(79,214,255,.12), transparent 60%),
+      radial-gradient(80% 70% at 0% 100%, rgba(255,138,60,.10), transparent 60%),
+      linear-gradient(180deg,var(--bg),var(--bg2));
+  }
+
+  /* ---------- header ---------- */
+  header{
+    position:sticky;top:0;z-index:20;
+    padding:22px clamp(16px,4vw,34px) 18px;
+    background:linear-gradient(180deg,rgba(12,9,20,.92),rgba(12,9,20,.72));
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+  }
+  .brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  h1{
+    margin:0;font-family:'Grenze Gotisch',serif;font-weight:800;
+    font-size:clamp(2rem,6vw,3.2rem);line-height:1;letter-spacing:.01em;
+    background:linear-gradient(100deg,var(--gold) 10%,#ffe3a6 35%,var(--magic) 70%,var(--arcane));
+    background-size:200% auto;
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 2px 20px rgba(176,107,255,.35));
+    animation:shimmer 8s linear infinite;
+  }
+  @keyframes shimmer{to{background-position:200% center}}
+  .tagline{
+    font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);
+    font-weight:600;
+  }
+  .tagline b{color:var(--gold);font-weight:700}
+
+  .controls{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;align-items:center}
+  .search{position:relative;flex:1 1 260px;min-width:220px}
+  .search svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:17px;height:17px;stroke:var(--magic);fill:none;stroke-width:2}
+  #search{
+    width:100%;padding:13px 14px 13px 42px;border-radius:12px;
+    border:1px solid var(--line);background:rgba(27,21,48,.75);color:var(--ink);
+    font-size:.95rem;font-family:inherit;outline:none;transition:.2s;
+  }
+  #search::placeholder{color:var(--muted)}
+  #search:focus{border-color:var(--magic);box-shadow:0 0 0 4px rgba(176,107,255,.14)}
+  .count{
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);
+    font-weight:600;white-space:nowrap;padding-right:4px;
+  }
+  .count b{color:var(--ink)}
+
+  .cats{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+  .cat{
+    font-size:.72rem;font-weight:600;letter-spacing:.04em;
+    padding:7px 13px 7px 11px;border-radius:999px;cursor:pointer;
+    background:rgba(27,21,48,.6);border:1px solid var(--line);color:var(--muted);
+    display:inline-flex;align-items:center;gap:7px;transition:.16s;
+  }
+  .cat .dot{width:8px;height:8px;border-radius:50%;background:var(--cc,var(--magic));box-shadow:0 0 8px var(--cc,var(--magic))}
+  .cat:hover{color:var(--ink);border-color:var(--cc,var(--magic))}
+  .cat[aria-pressed="true"]{color:var(--bg);background:var(--cc,var(--magic));border-color:transparent;font-weight:700}
+  .cat[aria-pressed="true"] .dot{background:var(--bg);box-shadow:none}
+
+  /* ---------- gallery ---------- */
+  .gallery{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));
+    gap:20px;padding:clamp(18px,4vw,34px);
+  }
+  .card{
+    position:relative;border-radius:16px;overflow:hidden;
+    background:linear-gradient(180deg,var(--panel-hi),var(--panel));
+    border:1px solid var(--line);
+    box-shadow:0 14px 30px -20px rgba(0,0,0,.9);
+    transition:transform .22s ease,box-shadow .22s,border-color .22s;
+    animation:rise .5s both;
+  }
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .card::after{
+    content:"";position:absolute;inset:0;border-radius:16px;pointer-events:none;
+    box-shadow:inset 0 0 0 1px transparent;
+    background:radial-gradient(120% 60% at 50% 0%,var(--cc-soft,rgba(176,107,255,.16)),transparent 60%);
+    opacity:0;transition:opacity .22s;
+  }
+  .card:hover{transform:translateY(-6px);border-color:var(--cc,var(--magic));box-shadow:0 26px 50px -22px rgba(0,0,0,.95),0 0 30px -8px var(--cc-soft,rgba(176,107,255,.4))}
+  .card:hover::after{opacity:1}
+
+  .media{position:relative;height:172px;overflow:hidden;background:#0d0a18}
+  .media :where(img,svg){width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+  .card:hover .media :where(img,svg){transform:scale(1.07)}
+  .media::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(11,7,18,.85));z-index:1}
+  .badge{
+    position:absolute;top:11px;left:11px;z-index:2;
+    font-size:.64rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    padding:5px 10px;border-radius:999px;color:#fff;
+    background:var(--cc,var(--magic));box-shadow:0 4px 14px -4px var(--cc,var(--magic));
+    display:inline-flex;align-items:center;gap:6px;
+  }
+
+  .body{padding:14px 15px 16px;position:relative;z-index:2}
+  .name{
+    margin:0 0 3px;font-family:'Grenze Gotisch',serif;font-weight:700;
+    font-size:1.18rem;letter-spacing:.01em;line-height:1.15;
+  }
+  .meta{margin:0 0 13px;font-size:.76rem;color:var(--muted);display:flex;gap:10px;align-items:center}
+  .meta .size{font-variant-numeric:tabular-nums;color:var(--cc,var(--magic));font-weight:600}
+
+  .copy{
+    width:100%;padding:12px;border:none;border-radius:11px;cursor:pointer;
+    font-family:inherit;font-size:.86rem;font-weight:700;letter-spacing:.02em;color:#1a1230;
+    background:linear-gradient(135deg,var(--gold),var(--gold2));
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    box-shadow:0 8px 20px -10px var(--gold2);
+    transition:transform .12s,box-shadow .2s,filter .2s;
+  }
+  .copy:hover{filter:brightness(1.08);box-shadow:0 12px 26px -10px var(--gold2)}
+  .copy:active{transform:translateY(1px) scale(.99)}
+  .copy.done{background:linear-gradient(135deg,#57e0a0,#2fb87a);color:#0a2417;box-shadow:0 8px 20px -10px #2fb87a}
+
+  /* ---------- states ---------- */
+  .state{
+    grid-column:1/-1;text-align:center;padding:70px 20px;color:var(--muted);
+  }
+  .state h2{font-family:'Grenze Gotisch',serif;font-size:1.6rem;color:var(--ink);margin:0 0 8px}
+  .skeleton{height:250px;border-radius:16px;background:linear-gradient(100deg,var(--panel) 30%,var(--panel-hi) 50%,var(--panel) 70%);background-size:220% 100%;animation:sweep 1.3s linear infinite}
+  @keyframes sweep{to{background-position:-220% 0}}
+
+  .onboard{max-width:540px;margin:0 auto}
+  .onboard .rune{font-size:2.8rem;line-height:1;color:var(--magic);filter:drop-shadow(0 0 20px rgba(176,107,255,.65));margin-bottom:10px}
+  .onboard p{color:var(--muted);font-size:.92rem}
+  .onboard b{color:var(--gold);font-weight:600}
+  .onboard pre{
+    text-align:left;background:rgba(10,7,18,.72);border:1px solid var(--line);
+    border-radius:12px;padding:16px 18px;overflow:auto;margin:16px 0;
+  }
+  .onboard code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.82rem;color:var(--arcane);white-space:pre}
+  .onboard .hint{font-size:.78rem;margin-top:18px;line-height:1.8}
+  .schema-btn{display:inline-flex;width:auto;padding:11px 22px}
+
+  .notice{
+    margin:0;padding:11px clamp(16px,4vw,34px);text-align:center;
+    background:rgba(255,138,60,.14);border-bottom:1px solid rgba(255,138,60,.3);
+    font-size:.8rem;color:#ffd6a8;
+  }
+  .notice b{color:var(--gold)}
+
+  /* ---------- toast ---------- */
+  #toast{
+    position:fixed;left:50%;bottom:26px;transform:translate(-50%,140%);
+    z-index:50;max-width:min(90vw,520px);
+    background:rgba(20,15,36,.96);border:1px solid var(--line);
+    border-radius:14px;padding:14px 16px;box-shadow:0 20px 50px -18px #000;
+    display:flex;gap:12px;align-items:flex-start;transition:transform .35s cubic-bezier(.2,1,.3,1);
+    backdrop-filter:blur(8px);
+  }
+  #toast.show{transform:translate(-50%,0)}
+  #toast .tick{width:26px;height:26px;flex:none;border-radius:50%;background:linear-gradient(135deg,#57e0a0,#2fb87a);display:grid;place-items:center;color:#0a2417;font-weight:900}
+  #toast .tx{font-size:.82rem}
+  #toast .tx b{display:block;margin-bottom:3px;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;font-size:.66rem}
+  #toast code{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--arcane);word-break:break-all;font-size:.82rem}
+
+  a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--arcane);outline-offset:3px}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition:none!important}
+    .card:hover,.copy:active{transform:none}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>Avrae Map Library</h1>
+    <span class="tagline">Battle-map archive · <b>Avrae</b> ready</span>
+  </div>
+  <div class="controls">
+    <div class="search">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke-linecap="round"/></svg>
+      <input type="text" id="search" placeholder="Search maps, categories…" autocomplete="off">
+    </div>
+    <span class="count"><b id="count">—</b> maps</span>
+  </div>
+  <div class="cats" id="cats" role="group" aria-label="Filter by category"></div>
+</header>
+
+<p class="notice" id="notice" hidden></p>
+
+<div id="gallery" class="gallery" aria-live="polite"></div>
+
+<div id="toast" role="status" aria-live="polite">
+  <div class="tick">✓</div>
+  <div class="tx"><b>Copied to clipboard</b><code id="toastCmd"></code></div>
+</div>
+
+<script>
+/* =====================================================================
+   AVRAE MAP LIBRARY
+   ---------------------------------------------------------------------
+   Data source: maps.json (array). Each entry:
+     { "name": "...", "category": "Dungeon",
+       "thumbnail": "<img …>" | "https://…/thumb.jpg",   // optional
+       "full": "https://…/full.jpg",                      // used in command
+       "size": "30x30" }
+   Copies:  !map -bg "<full>" -mapsize <size>
+   Categories auto-colour + auto-populate the filter row. No build step.
+   ===================================================================== */
+
+const gallery = document.getElementById('gallery');
+const catsBar = document.getElementById('cats');
+const searchEl = document.getElementById('search');
+const countEl = document.getElementById('count');
+const notice  = document.getElementById('notice');
+
+let allMaps = [];
+let active  = 'all';
+
+/* ---- category → colour (keyword match, else stable hash) ---- */
+const CAT_KEYS = [
+  [['dungeon','crypt','tomb','sewer'], '#b06bff'],
+  [['cave','cavern','mine','underdark'], '#6b8bff'],
+  [['forest','wood','grove','jungle'], '#4fd88a'],
+  [['town','city','village','street','market'], '#ffbf5c'],
+  [['tavern','inn','house','interior','shop'], '#ff7a5c'],
+  [['water','coast','sea','ocean','ship','boat','dock','river'], '#4fd6ff'],
+  [['mountain','hill','cliff','peak'], '#c0a0ff'],
+  [['desert','dune','sand'], '#ffd15c'],
+  [['swamp','marsh','bog'], '#7fbf5c'],
+  [['castle','keep','fort','tower','wall'], '#ff6b9d'],
+  [['snow','tundra','ice','frozen','arctic'], '#8fd6ff'],
+  [['temple','shrine','ruin','sanctum'], '#e0a94f'],
+  [['hell','abyss','void','planar','fey','feywild'], '#c78aff'],
+  [['battle','arena','combat','war'], '#ff5c5c'],
+  [['road','path','wilderness','wild','field','plain'], '#9fd86a']
+];
+const PALETTE = ['#b06bff','#4fd6ff','#ffbf5c','#4fd88a','#ff6b9d','#ff8a3c','#6b8bff','#5fd6c0','#ffd15c','#c78aff'];
+function catColor(cat){
+  const c = (cat||'').toLowerCase();
+  for(const [keys,col] of CAT_KEYS){ if(keys.some(k=>c.includes(k))) return col; }
+  let h=0; for(let i=0;i<c.length;i++) h=(h*31+c.charCodeAt(i))>>>0;
+  return PALETTE[h % PALETTE.length];
+}
+function soften(hex,a=.16){
+  const n=parseInt(hex.slice(1),16);
+  return `rgba(${n>>16&255},${n>>8&255},${n&255},${a})`;
+}
+
+/* ---- procedural battlemap placeholder (no network needed) ---- */
+function placeholder(cat){
+  const c = catColor(cat);
+  const label = (cat||'MAP').slice(0,2).toUpperCase();
+  return `<svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#171126"/><stop offset="1" stop-color="#0c0916"/>
+      </linearGradient>
+      <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M20 0H0V20" fill="none" stroke="${c}" stroke-opacity="0.22" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="320" height="180" fill="url(#g)"/>
+    <rect width="320" height="180" fill="url(#grid)"/>
+    <circle cx="160" cy="90" r="120" fill="${c}" opacity="0.10"/>
+    <text x="160" y="102" text-anchor="middle" font-family="Georgia,serif" font-weight="700"
+          font-size="52" fill="${c}" opacity="0.55" letter-spacing="4">${label}</text>
+  </svg>`;
+}
+
+/* ---- render ---- */
+function mediaHTML(map){
+  const t = map.thumbnail;
+  if(typeof t === 'string' && t.trim().startsWith('<')) return t;          // raw <img>/<svg>
+  if(typeof t === 'string' && t.trim())  return `<img src="${t}" alt="" loading="lazy">`;
+  if(map.full)                           return `<img src="${map.full}" alt="" loading="lazy">`;
+  return placeholder(map.category);                                        // generated fallback
+}
+
+function renderMaps(maps){
+  gallery.innerHTML = '';
+  if(!maps.length){
+    gallery.innerHTML = `<div class="state"><h2>No maps found</h2><p>Try a different search or category.</p></div>`;
+    return;
+  }
+  maps.forEach((map,i)=>{
+    const col = catColor(map.category);
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.setProperty('--cc', col);
+    card.style.setProperty('--cc-soft', soften(col,.4));
+    card.style.animationDelay = (Math.min(i,14)*35)+'ms';
+    card.innerHTML = `
+      <div class="media">
+        <span class="badge">${map.category||'Map'}</span>
+        ${mediaHTML(map)}
+      </div>
+      <div class="body">
+        <h3 class="name">${map.name||'Untitled'}</h3>
+        <p class="meta">${map.category||'—'} ${map.size?`<span class="size">${map.size}</span>`:''}</p>
+        <button class="copy" type="button">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+          Copy Avrae Command
+        </button>
+      </div>`;
+    card.querySelector('.copy').addEventListener('click', e => copyMap(map, e.currentTarget));
+    gallery.appendChild(card);
+  });
+}
+
+/* ---- copy command (Avrae format preserved) ---- */
+async function copyMap(map, btn){
+  const cmd = `!map -bg "${map.full}" -mapsize ${map.size}`;
+  let ok = false;
+  try{
+    await navigator.clipboard.writeText(cmd); ok = true;
+  }catch{
+    const ta=document.createElement('textarea'); ta.value=cmd; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    try{ ok = document.execCommand('copy'); }catch{}
+    ta.remove();
+  }
+  if(btn){
+    const orig = btn.innerHTML;
+    btn.classList.add('done');
+    btn.innerHTML = ok ? '✓ Copied!' : 'Press Ctrl+C';
+    setTimeout(()=>{ btn.classList.remove('done'); btn.innerHTML = orig; }, 1600);
+  }
+  showToast(cmd);
+}
+
+let toastT;
+function showToast(cmd){
+  const t = document.getElementById('toast');
+  document.getElementById('toastCmd').textContent = cmd;
+  t.classList.add('show');
+  clearTimeout(toastT);
+  toastT = setTimeout(()=>t.classList.remove('show'), 3200);
+}
+
+/* ---- category filter row ---- */
+function buildCats(maps){
+  const counts = {};
+  maps.forEach(m=>{ const c=m.category||'Uncategorized'; counts[c]=(counts[c]||0)+1; });
+  const cats = Object.keys(counts).sort();
+  catsBar.innerHTML = '';
+  const mk = (key,label,col)=>{
+    const b=document.createElement('button');
+    b.className='cat'; b.dataset.key=key; b.textContent=label;
+    b.setAttribute('aria-pressed', key===active);
+    if(col){ b.style.setProperty('--cc',col); b.insertAdjacentHTML('afterbegin','<span class="dot"></span>'); }
+    b.addEventListener('click',()=>{ active=key; [...catsBar.children].forEach(c=>c.setAttribute('aria-pressed',c.dataset.key===key)); apply(); });
+    return b;
+  };
+  catsBar.appendChild(mk('all','All'));
+  cats.forEach(c=>catsBar.appendChild(mk(c, `${c} · ${counts[c]}`, catColor(c))));
+}
+
+/* ---- search + filter ---- */
+function apply(){
+  const term = searchEl.value.trim().toLowerCase();
+  const out = allMaps.filter(m=>{
+    const okCat = active==='all' || (m.category||'Uncategorized')===active;
+    const okTerm = !term || `${m.name} ${m.category}`.toLowerCase().includes(term);
+    return okCat && okTerm;
+  });
+  countEl.textContent = out.length;
+  renderMaps(out);
+}
+searchEl.addEventListener('input', apply);
+
+/* ---- boot ---- */
+function boot(data){
+  allMaps = Array.isArray(data) ? data : [];
+  countEl.textContent = allMaps.length;
+  if(!allMaps.length){ emptyLibrary(); return; }
+  buildCats(allMaps);
+  apply();
+}
+
+/* onboarding state shown when maps.json is present but empty ([]) */
+function emptyLibrary(){
+  catsBar.innerHTML = '';
+  gallery.innerHTML = `
+    <div class="state onboard">
+      <div class="rune">✦</div>
+      <h2>Your library is empty</h2>
+      <p>Add entries to <b>maps.json</b> — one object per map:</p>
+      <pre><code>{
+  "name": "Forgotten Crypt",
+  "category": "Dungeon",
+  "full": "https://your-cdn/crypt.jpg",
+  "thumbnail": "https://your-cdn/crypt-thumb.jpg",
+  "size": "30x30"
+}</code></pre>
+      <button class="copy schema-btn" id="copySchema" type="button">Copy example entry</button>
+      <p class="hint"><b>full</b> is the image Avrae loads &nbsp;·&nbsp; <b>thumbnail</b> is optional — a grid placeholder is drawn if omitted &nbsp;·&nbsp; <b>size</b> is grid squares, e.g. 30x30.</p>
+    </div>`;
+  document.getElementById('copySchema').addEventListener('click', e=>{
+    const ex = '{ "name": "Forgotten Crypt", "category": "Dungeon", "full": "https://your-cdn/crypt.jpg", "thumbnail": "https://your-cdn/crypt-thumb.jpg", "size": "30x30" }';
+    navigator.clipboard?.writeText(ex).catch(()=>{});
+    e.currentTarget.textContent = 'Copied ✓';
+    setTimeout(()=>{ e.currentTarget.textContent = 'Copy example entry'; }, 1500);
+  });
+}
+
+gallery.innerHTML = Array.from({length:8},()=>'<div class="skeleton"></div>').join('');
+
+fetch('maps.json')
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(boot)
+  .catch(()=>{
+    notice.hidden = false;
+    notice.innerHTML = 'Showing <b>demo maps</b> — drop a <b>maps.json</b> beside this file to load your library.';
+    boot(DEMO);
+  });
+
+/* ---- demo data (used only if maps.json is missing) ---- */
+const DEMO = [
+  {name:"Forgotten Crypt",   category:"Dungeon", full:"https://example.com/crypt.jpg",   size:"30x30"},
+  {name:"Whispering Cavern", category:"Cave",    full:"https://example.com/cavern.jpg",  size:"25x25"},
+  {name:"Elderwood Glade",   category:"Forest",  full:"https://example.com/glade.jpg",   size:"40x30"},
+  {name:"Harborcross Market",category:"Town",    full:"https://example.com/market.jpg",  size:"35x35"},
+  {name:"The Gilded Flagon", category:"Tavern",  full:"https://example.com/tavern.jpg",  size:"20x20"},
+  {name:"Stormwrack Shoals", category:"Coast",   full:"https://example.com/shoals.jpg",  size:"40x40"},
+  {name:"Frostspire Pass",   category:"Snow",    full:"https://example.com/pass.jpg",    size:"30x40"},
+  {name:"Ashen Keep",        category:"Castle",  full:"https://example.com/keep.jpg",    size:"45x45"},
+  {name:"Emberfall Arena",   category:"Battle",  full:"https://example.com/arena.jpg",   size:"30x30"}
+];
+</script>
+</body>
+</html>
