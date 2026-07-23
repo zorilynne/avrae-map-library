@@ -86,14 +86,14 @@
   },
   {
     "name": "Abandoned Mansion 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Abandoned Mansion 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Abandoned Mansion 300dpi VTT.jpg"
   },
   {
     "name": "Abandoned Mansion First Floor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Abandoned Mansion First Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Abandoned Mansion First Floor 300dpi VTT.jpg"
@@ -219,21 +219,21 @@
   },
   {
     "name": "Adventurers Abandoned Manor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Adventurers Abandoned Manor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Adventurers Abandoned Manor 300dpi VTT.jpg"
   },
   {
     "name": "Adventurers Abandoned Manor Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Adventurers Abandoned Manor Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Adventurers Abandoned Manor Basement 300dpi VTT.jpg"
   },
   {
     "name": "Adventurers Abandoned Manor Upper Floor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Adventurers Abandoned Manor Upper Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Adventurers Abandoned Manor Upper Floor 300dpi VTT.jpg"
@@ -261,21 +261,21 @@
   },
   {
     "name": "Adventurers Manor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Adventurers Manor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Adventurers Manor 300dpi VTT.jpg"
   },
   {
     "name": "Adventurers Manor Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Adventurers Manor Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Adventurers Manor Basement 300dpi VTT.jpg"
   },
   {
     "name": "Adventurers Manor Upper Floor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Adventurers Manor Upper Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Adventurers Manor Upper Floor 300dpi VTT.jpg"
@@ -1528,14 +1528,14 @@
   },
   {
     "name": "Clandestine Mansion 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Clandestine Mansion 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Clandestine Mansion 300dpi VTT.jpg"
   },
   {
     "name": "Clandestine Mansion First Floor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Clandestine Mansion First Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Clandestine Mansion First Floor 300dpi VTT.jpg"
@@ -1899,7 +1899,7 @@
   },
   {
     "name": "Deadman’s Mausoleum 300dpi VVT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Deadman’s Mausoleum 300dpi VVT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Deadman’s Mausoleum 300dpi VVT.jpg"
@@ -2844,14 +2844,14 @@
   },
   {
     "name": "Fisherman's Ruined Temple 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Fisherman's Ruined Temple 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Fisherman's Ruined Temple 300dpi VTT.jpg"
   },
   {
     "name": "Fisherman's Ruined Temple High Tide 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Fisherman's Ruined Temple High Tide 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Fisherman's Ruined Temple High Tide 300dpi VTT.jpg"
@@ -2963,14 +2963,14 @@
   },
   {
     "name": "Forest Mansion 300dpi VTT",
-    "category": "Forest",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Mansion 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Mansion 300dpi VTT.jpg"
   },
   {
     "name": "Forest Mansion First Floor 300dpi VTT",
-    "category": "Forest",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Mansion First Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Mansion First Floor 300dpi VTT.jpg"
@@ -3747,21 +3747,21 @@
   },
   {
     "name": "Haunted Manor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Haunted Manor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Haunted Manor 300dpi VTT.jpg"
   },
   {
     "name": "Haunted Manor Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Haunted Manor Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Haunted Manor Basement 300dpi VTT.jpg"
   },
   {
     "name": "Haunted Manor Roof 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Haunted Manor Roof 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Haunted Manor Roof 300dpi VTT.jpg"
@@ -4335,14 +4335,14 @@
   },
   {
     "name": "Lord’s Manor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Lord’s Manor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Lord’s Manor 300dpi VTT.jpg"
   },
   {
     "name": "Lord’s Ruined Manor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Lord’s Ruined Manor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Lord’s Ruined Manor 300dpi VTT.jpg"
@@ -4489,21 +4489,21 @@
   },
   {
     "name": "Mangrove Swamp Fishing Village 300dpi VTT",
-    "category": "Swamp",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mangrove Swamp Fishing Village 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mangrove Swamp Fishing Village 300dpi VTT.jpg"
   },
   {
     "name": "Manor of the Great Vault 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Manor of the Great Vault 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Manor of the Great Vault 300dpi VTT.jpg"
   },
   {
     "name": "Manse of Treasures 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Manse of Treasures 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Manse of Treasures 300dpi VTT.jpg"
@@ -4811,21 +4811,21 @@
   },
   {
     "name": "Necromancers Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Necromancers Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Necromancers Basement 300dpi VTT.jpg"
   },
   {
     "name": "Necromancers Basement 300dpi VTT_1",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Necromancers Basement 300dpi VTT_1.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Necromancers Basement 300dpi VTT_1.jpg"
   },
   {
     "name": "Necromancers Basement 300dpi VTT_2",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Necromancers Basement 300dpi VTT_2.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Necromancers Basement 300dpi VTT_2.jpg"
@@ -6463,14 +6463,14 @@
   },
   {
     "name": "Seaside Mansion 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Seaside Mansion 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Seaside Mansion 300dpi VTT.jpg"
   },
   {
     "name": "Seaside Mansion First Floor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Seaside Mansion First Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Seaside Mansion First Floor 300dpi VTT.jpg"
@@ -7289,7 +7289,7 @@
   },
   {
     "name": "Temple of the Necromancer Lord 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Temple of the Necromancer Lord 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Temple of the Necromancer Lord 300dpi VTT.jpg"
@@ -7562,7 +7562,7 @@
   },
   {
     "name": "The Living Manor 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/The Living Manor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/The Living Manor 300dpi VTT.jpg"
@@ -8143,7 +8143,7 @@
   },
   {
     "name": "Undercity Sewage Management Facility 300dpi VTT",
-    "category": "Maps",
+    "category": "Mansion/Housing",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Undercity Sewage Management Facility 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Undercity Sewage Management Facility 300dpi VTT.jpg"
