@@ -29,14 +29,15 @@
   },
   {
     "name": "Abandoned forest courtyard (lower) 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Abandoned forest courtyard (lower) 300dpi VTT.webp",
-    "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Abandoned forest courtyard (lower) 300dpi VTT.jpg"
+    "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Abandoned forest courtyard (lower) 300dpi VTT.jpg",
+    "tags": []
   },
   {
     "name": "Abandoned forest courtyard 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Abandoned forest courtyard 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Abandoned forest courtyard 300dpi VTT.jpg"
@@ -400,28 +401,28 @@
   },
   {
     "name": "Ancient Forest Base Camp 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Ancient Forest Base Camp 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Ancient Forest Base Camp 300dpi VTT.jpg"
   },
   {
     "name": "Ancient Forest Base Camp Upper 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Ancient Forest Base Camp Upper 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Ancient Forest Base Camp Upper 300dpi VTT.jpg"
   },
   {
     "name": "Ancient Forest Pathway 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Ancient Forest Pathway 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Ancient Forest Pathway 300dpi VTT.jpg"
   },
   {
     "name": "Ancient Forest Pathway Upper 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Ancient Forest Pathway Upper 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Ancient Forest Pathway Upper 300dpi VTT.jpg"
@@ -904,7 +905,7 @@
   },
   {
     "name": "Beastmen’s Forest Shrine 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Beastmen’s Forest Shrine 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Beastmen’s Forest Shrine 300dpi VTT.jpg"
@@ -1051,14 +1052,14 @@
   },
   {
     "name": "Bloodied Rainforest Cabin (Exterior) 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Bloodied Rainforest Cabin (Exterior) 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Bloodied Rainforest Cabin (Exterior) 300dpi VTT.jpg"
   },
   {
     "name": "Bloodied Rainforest Cabin (Interior) 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Bloodied Rainforest Cabin (Interior) 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Bloodied Rainforest Cabin (Interior) 300dpi VTT.jpg"
@@ -1086,7 +1087,7 @@
   },
   {
     "name": "Blossoming Forest Road 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Blossoming Forest Road 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Blossoming Forest Road 300dpi VTT.jpg"
@@ -2591,7 +2592,7 @@
   },
   {
     "name": "Elven Forest 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Elven Forest 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Elven Forest 300dpi VTT.jpg"
@@ -2920,105 +2921,105 @@
   },
   {
     "name": "Forest Ambush 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Ambush 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Ambush 300dpi VTT.jpg"
   },
   {
     "name": "Forest Caravan Camp 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Caravan Camp 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Caravan Camp 300dpi VTT.jpg"
   },
   {
     "name": "Forest Cavern’s Entrance 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Cavern’s Entrance 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Cavern’s Entrance 300dpi VTT.jpg"
   },
   {
     "name": "Forest Giant’s Lair 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Giant’s Lair 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Giant’s Lair 300dpi VTT.jpg"
   },
   {
     "name": "Forest Gully 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Gully 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Gully 300dpi VTT.jpg"
   },
   {
     "name": "Forest Library 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Library 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Library 300dpi VTT.jpg"
   },
   {
     "name": "Forest Mansion 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Mansion 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Mansion 300dpi VTT.jpg"
   },
   {
     "name": "Forest Mansion First Floor 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Mansion First Floor 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Mansion First Floor 300dpi VTT.jpg"
   },
   {
     "name": "Forest Mountaintop Throne 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Mountaintop Throne 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Mountaintop Throne 300dpi VTT.jpg"
   },
   {
     "name": "Forest Trade Road 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest Trade Road 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest Trade Road 300dpi VTT.jpg"
   },
   {
     "name": "Forest_300dpi_VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest_300dpi_VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest_300dpi_VTT.jpg"
   },
   {
     "name": "Forest_night_300dpi_VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest_night_300dpi_VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest_night_300dpi_VTT.jpg"
   },
   {
     "name": "Forest_road_300dpi_VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest_road_300dpi_VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest_road_300dpi_VTT.jpg"
   },
   {
     "name": "Forest_road_misty_night_300dpi_VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forest_road_misty_night_300dpi_VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forest_road_misty_night_300dpi_VTT.jpg"
   },
   {
     "name": "Forested Bandit Camp 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Forested Bandit Camp 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Forested Bandit Camp 300dpi VTT.jpg"
@@ -3060,7 +3061,7 @@
   },
   {
     "name": "Fortified Forest Outpost 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Fortified Forest Outpost 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Fortified Forest Outpost 300dpi VTT.jpg"
@@ -3417,14 +3418,14 @@
   },
   {
     "name": "Giant Eagle's Forest Lagoon 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Giant Eagle's Forest Lagoon 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Giant Eagle's Forest Lagoon 300dpi VTT.jpg"
   },
   {
     "name": "Giant Eagle's Forest Lagoon Upper 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Giant Eagle's Forest Lagoon Upper 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Giant Eagle's Forest Lagoon Upper 300dpi VTT.jpg"
@@ -3494,7 +3495,7 @@
   },
   {
     "name": "Glowing Alien Forest 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Glowing Alien Forest 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Glowing Alien Forest 300dpi VTT.jpg"
@@ -3809,7 +3810,7 @@
   },
   {
     "name": "Heart of the Forest 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Heart of the Forest 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Heart of the Forest 300dpi VTT.jpg"
@@ -4145,7 +4146,7 @@
   },
   {
     "name": "King's Forest Ruins 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/King's Forest Ruins 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/King's Forest Ruins 300dpi VTT.jpg"
@@ -4635,7 +4636,7 @@
   },
   {
     "name": "Mines Forest 300 dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mines Forest 300 dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mines Forest 300 dpi VTT.jpg"
@@ -4656,21 +4657,21 @@
   },
   {
     "name": "Mistborn Forest's Great Maw 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mistborn Forest's Great Maw 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mistborn Forest's Great Maw 300dpi VTT.jpg"
   },
   {
     "name": "Mistborn Forest's Great Maw Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mistborn Forest's Great Maw Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mistborn Forest's Great Maw Basement 300dpi VTT.jpg"
   },
   {
     "name": "Mistborn Forest's Great Maw Subbasement 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mistborn Forest's Great Maw Subbasement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mistborn Forest's Great Maw Subbasement 300dpi VTT.jpg"
@@ -4684,21 +4685,21 @@
   },
   {
     "name": "Mononoke Forest 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mononoke Forest 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mononoke Forest 300dpi VTT.jpg"
   },
   {
     "name": "Moonlit Ancient Forest Base Camp 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Moonlit Ancient Forest Base Camp 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Moonlit Ancient Forest Base Camp 300dpi VTT.jpg"
   },
   {
     "name": "Moonlit Ancient Forest Base Camp Upper 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Moonlit Ancient Forest Base Camp Upper 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Moonlit Ancient Forest Base Camp Upper 300dpi VTT.jpg"
@@ -5412,7 +5413,7 @@
   },
   {
     "name": "Primeval Rainforest 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Primeval Rainforest 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Primeval Rainforest 300dpi VTT.jpg"
@@ -5433,14 +5434,14 @@
   },
   {
     "name": "Primitive Forest Village 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Primitive Forest Village 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Primitive Forest Village 300dpi VTT.jpg"
   },
   {
     "name": "Primitive Forest Village Arena 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Primitive Forest Village Arena 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Primitive Forest Village Arena 300dpi VTT.jpg"
@@ -5853,7 +5854,7 @@
   },
   {
     "name": "Ruined Forest Keep 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Ruined Forest Keep 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Ruined Forest Keep 300dpi VTT.jpg"
@@ -6896,7 +6897,7 @@
   },
   {
     "name": "Snowy Forest Road 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Snowy Forest Road 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Snowy Forest Road 300dpi VTT.jpg"
@@ -6973,21 +6974,21 @@
   },
   {
     "name": "Spider Forest & Infested Tower 3 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Spider Forest & Infested Tower 3 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Spider Forest & Infested Tower 3 300dpi VTT.jpg"
   },
   {
     "name": "Spider Forest & Infested Tower 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Spider Forest & Infested Tower 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Spider Forest & Infested Tower 300dpi VTT.jpg"
   },
   {
     "name": "Spider Forest & Infested Tower floor 2 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Spider Forest & Infested Tower floor 2 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Spider Forest & Infested Tower floor 2 300dpi VTT.jpg"
@@ -7015,7 +7016,7 @@
   },
   {
     "name": "Sprites Forest Canyon 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Sprites Forest Canyon 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Sprites Forest Canyon 300dpi VTT.jpg"
@@ -7603,7 +7604,7 @@
   },
   {
     "name": "The Rainbow Forest 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/The Rainbow Forest 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/The Rainbow Forest 300dpi VTT.jpg"
@@ -7988,21 +7989,21 @@
   },
   {
     "name": "Trollgore Forest Grotto 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Trollgore Forest Grotto 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Trollgore Forest Grotto 300dpi VTT.jpg"
   },
   {
     "name": "Trollgore Forest Grotto Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Trollgore Forest Grotto Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Trollgore Forest Grotto Basement 300dpi VTT.jpg"
   },
   {
     "name": "Trollgore Forest Grotto Subbasement 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Trollgore Forest Grotto Subbasement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Trollgore Forest Grotto Subbasement 300dpi VTT.jpg"
@@ -8765,14 +8766,14 @@
   },
   {
     "name": "Waterfall lagoon (forest night) 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Waterfall lagoon (forest night) 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Waterfall lagoon (forest night) 300dpi VTT.jpg"
   },
   {
     "name": "Waterfall lagoon (forest) 300dpi VTT",
-    "category": "Maps",
+    "category": "Forest",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Waterfall lagoon (forest) 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Waterfall lagoon (forest) 300dpi VTT.jpg"
