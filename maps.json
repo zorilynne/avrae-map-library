@@ -3075,7 +3075,7 @@
   },
   {
     "name": "Fortified Swamp Outpost 300dpi VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Fortified Swamp Outpost 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Fortified Swamp Outpost 300dpi VTT.jpg"
@@ -4328,7 +4328,7 @@
   },
   {
     "name": "Lizardmens Swamp Village 300dpi VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Lizardmens Swamp Village 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Lizardmens Swamp Village 300dpi VTT.jpg"
@@ -4489,7 +4489,7 @@
   },
   {
     "name": "Mangrove Swamp Fishing Village 300dpi VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Mangrove Swamp Fishing Village 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Mangrove Swamp Fishing Village 300dpi VTT.jpg"
@@ -4972,7 +4972,7 @@
   },
   {
     "name": "Orcish Swamp Ritual Site 300dpi VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Orcish Swamp Ritual Site 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Orcish Swamp Ritual Site 300dpi VTT.jpg"
@@ -7177,21 +7177,21 @@
   },
   {
     "name": "Swamp Temple of Curiosities 300dpi VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Swamp Temple of Curiosities 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Swamp Temple of Curiosities 300dpi VTT.jpg"
   },
   {
     "name": "Swamp_300dpi_VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Swamp_300dpi_VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Swamp_300dpi_VTT.jpg"
   },
   {
     "name": "Swamp_misty_night_300dpi_VTT",
-    "category": "Maps",
+    "category": "Swamp",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Swamp_misty_night_300dpi_VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Swamp_misty_night_300dpi_VTT.jpg"
