@@ -688,14 +688,14 @@
   },
   {
     "name": "Attacked Moonlit Town Wall 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Attacked Moonlit Town Wall 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Attacked Moonlit Town Wall 300dpi VTT.jpg"
   },
   {
     "name": "Attacked Town Wall 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Attacked Town Wall 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Attacked Town Wall 300dpi VTT.jpg"
@@ -2872,14 +2872,14 @@
   },
   {
     "name": "Flooded Dwarven Mining Town of Don'Bal 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Flooded Dwarven Mining Town of Don'Bal 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Flooded Dwarven Mining Town of Don'Bal 300dpi VTT.jpg"
   },
   {
     "name": "Flooded Dwarven Mining Town of Don'Bal Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Flooded Dwarven Mining Town of Don'Bal Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Flooded Dwarven Mining Town of Don'Bal Basement 300dpi VTT.jpg"
@@ -3082,7 +3082,7 @@
   },
   {
     "name": "Fortified Town Wall 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Fortified Town Wall 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Fortified Town Wall 300dpi VTT.jpg"
@@ -4720,7 +4720,7 @@
   },
   {
     "name": "Moonlit Town Wall 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Moonlit Town Wall 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Moonlit Town Wall 300dpi VTT.jpg"
@@ -5756,14 +5756,14 @@
   },
   {
     "name": "Rovers Ruined Desert Town Camp 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Rovers Ruined Desert Town Camp 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Rovers Ruined Desert Town Camp 300dpi VTT.jpg"
   },
   {
     "name": "Rovers Ruined Desert Town Camp Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Rovers Ruined Desert Town Camp Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Rovers Ruined Desert Town Camp Basement 300dpi VTT.jpg"
@@ -6512,7 +6512,7 @@
   },
   {
     "name": "Seaside Town Brewery 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Seaside Town Brewery 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Seaside Town Brewery 300dpi VTT.jpg"
@@ -6624,7 +6624,7 @@
   },
   {
     "name": "Shipwreck Ruins of Jacob's Town 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Shipwreck Ruins of Jacob's Town 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Shipwreck Ruins of Jacob's Town 300dpi VTT.jpg"
@@ -6925,14 +6925,14 @@
   },
   {
     "name": "Snowy Town Ruins of the Hermit 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Snowy Town Ruins of the Hermit 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Snowy Town Ruins of the Hermit 300dpi VTT.jpg"
   },
   {
     "name": "Snowy Town Ruins of the Hermit Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Snowy Town Ruins of the Hermit Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Snowy Town Ruins of the Hermit Basement 300dpi VTT.jpg"
@@ -7877,91 +7877,91 @@
   },
   {
     "name": "Town of Frostbite 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Frostbite 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Frostbite 300dpi VTT.jpg"
   },
   {
     "name": "Town of Frostbite Night 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Frostbite Night 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Frostbite Night 300dpi VTT.jpg"
   },
   {
     "name": "Town of Frostbite Night Roof 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Frostbite Night Roof 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Frostbite Night Roof 300dpi VTT.jpg"
   },
   {
     "name": "Town of Frostbite Roof 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Frostbite Roof 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Frostbite Roof 300dpi VTT.jpg"
   },
   {
     "name": "Town of Hanged Men (Night) 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Hanged Men (Night) 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Hanged Men (Night) 300dpi VTT.jpg"
   },
   {
     "name": "Town of Hanged Men 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Hanged Men 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Hanged Men 300dpi VTT.jpg"
   },
   {
     "name": "Town of Hanged Men Roof (Night) 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Hanged Men Roof (Night) 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Hanged Men Roof (Night) 300dpi VTT.jpg"
   },
   {
     "name": "Town of Hanged Men Roof 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Hanged Men Roof 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Hanged Men Roof 300dpi VTT.jpg"
   },
   {
     "name": "Town of Seacliff 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Seacliff 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Seacliff 300dpi VTT.jpg"
   },
   {
     "name": "Town of Seacliff Basement 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Seacliff Basement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Seacliff Basement 300dpi VTT.jpg"
   },
   {
     "name": "Town of Seacliff Subbasement 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Seacliff Subbasement 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Seacliff Subbasement 300dpi VTT.jpg"
   },
   {
     "name": "Town of Tezald 300dpi VVT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Tezald 300dpi VVT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Tezald 300dpi VVT.jpg"
   },
   {
     "name": "Town of Tezald Basement 300dpi VVT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Town of Tezald Basement 300dpi VVT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Town of Tezald Basement 300dpi VVT.jpg"
@@ -8283,14 +8283,14 @@
   },
   {
     "name": "Underdark Trade Town 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Underdark Trade Town 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Underdark Trade Town 300dpi VTT.jpg"
   },
   {
     "name": "Underdark Trade Town Upper 300dpi VTT",
-    "category": "Maps",
+    "category": "Town",
     "size": "30x20",
     "thumbnail": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/thumbnails/Underdark Trade Town Upper 300dpi VTT.webp",
     "full": "https://pub-6642ea74d5fb48aca27aaad32050daeb.r2.dev/maps/Underdark Trade Town Upper 300dpi VTT.jpg"
