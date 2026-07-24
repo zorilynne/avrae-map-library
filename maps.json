@@ -37,7 +37,7 @@
   },
   {
     "name": "Abandoned forest courtyard",
-    "category": "Abandonded",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/abandoned-forest-courtyard-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/abandoned-forest-courtyard-300dpi-vtt.jpg",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Abandoned forest courtyard (lower)",
-    "category": "Abandonded",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/abandoned-forest-courtyard-lower-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/abandoned-forest-courtyard-lower-300dpi-vtt.jpg",
@@ -514,7 +514,7 @@
   },
   {
     "name": "Ancient Forest Base Camp",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/ancient-forest-base-camp-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/ancient-forest-base-camp-300dpi-vtt.jpg",
@@ -523,7 +523,7 @@
   },
   {
     "name": "Ancient Forest Base Camp Upper",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/ancient-forest-base-camp-upper-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/ancient-forest-base-camp-upper-300dpi-vtt.jpg",
@@ -532,7 +532,7 @@
   },
   {
     "name": "Ancient Forest Pathway",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/ancient-forest-pathway-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/ancient-forest-pathway-300dpi-vtt.jpg",
@@ -541,7 +541,7 @@
   },
   {
     "name": "Ancient Forest Pathway Upper",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/ancient-forest-pathway-upper-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/ancient-forest-pathway-upper-300dpi-vtt.jpg",
@@ -1162,7 +1162,7 @@
   },
   {
     "name": "Beastmen’s Forest Shrine",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/beastmens-forest-shrine-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/beastmens-forest-shrine-300dpi-vtt.jpg",
@@ -1351,7 +1351,7 @@
   },
   {
     "name": "Bloodied Rainforest Cabin (Exterior)",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/bloodied-rainforest-cabin-exterior-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/bloodied-rainforest-cabin-exterior-300dpi-vtt.jpg",
@@ -1360,7 +1360,7 @@
   },
   {
     "name": "Bloodied Rainforest Cabin (Interior)",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/bloodied-rainforest-cabin-interior-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/bloodied-rainforest-cabin-interior-300dpi-vtt.jpg",
@@ -1396,7 +1396,7 @@
   },
   {
     "name": "Blossoming Forest Road",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/blossoming-forest-road-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/blossoming-forest-road-300dpi-vtt.jpg",
@@ -3331,7 +3331,7 @@
   },
   {
     "name": "Elven Forest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/elven-forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/elven-forest-300dpi-vtt.jpg",
@@ -3754,7 +3754,7 @@
   },
   {
     "name": "Forest 300dpi VTT",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-300dpi-vtt.jpg",
@@ -3763,7 +3763,7 @@
   },
   {
     "name": "Forest Ambush",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-ambush-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-ambush-300dpi-vtt.jpg",
@@ -3772,7 +3772,7 @@
   },
   {
     "name": "Forest Caravan Camp",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-caravan-camp-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-caravan-camp-300dpi-vtt.jpg",
@@ -3781,7 +3781,7 @@
   },
   {
     "name": "Forest Cavern’s Entrance",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-caverns-entrance-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-caverns-entrance-300dpi-vtt.jpg",
@@ -3790,7 +3790,7 @@
   },
   {
     "name": "Forest Giant’s Lair",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-giants-lair-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-giants-lair-300dpi-vtt.jpg",
@@ -3799,7 +3799,7 @@
   },
   {
     "name": "Forest Gully",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-gully-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-gully-300dpi-vtt.jpg",
@@ -3808,7 +3808,7 @@
   },
   {
     "name": "Forest Library",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-library-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-library-300dpi-vtt.jpg",
@@ -3817,7 +3817,7 @@
   },
   {
     "name": "Forest Mansion",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-mansion-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-mansion-300dpi-vtt.jpg",
@@ -3826,7 +3826,7 @@
   },
   {
     "name": "Forest Mansion First Floor",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-mansion-first-floor-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-mansion-first-floor-300dpi-vtt.jpg",
@@ -3835,7 +3835,7 @@
   },
   {
     "name": "Forest Mountaintop Throne",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-mountaintop-throne-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-mountaintop-throne-300dpi-vtt.jpg",
@@ -3844,7 +3844,7 @@
   },
   {
     "name": "Forest night 300dpi VTT",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-night-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-night-300dpi-vtt.jpg",
@@ -3853,7 +3853,7 @@
   },
   {
     "name": "Forest road 300dpi VTT",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-road-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-road-300dpi-vtt.jpg",
@@ -3862,7 +3862,7 @@
   },
   {
     "name": "Forest road misty night 300dpi VTT",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-road-misty-night-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-road-misty-night-300dpi-vtt.jpg",
@@ -3871,7 +3871,7 @@
   },
   {
     "name": "Forest Trade Road",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forest-trade-road-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forest-trade-road-300dpi-vtt.jpg",
@@ -3880,7 +3880,7 @@
   },
   {
     "name": "Forested Bandit Camp",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/forested-bandit-camp-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/forested-bandit-camp-300dpi-vtt.jpg",
@@ -3934,7 +3934,7 @@
   },
   {
     "name": "Fortified Forest Outpost",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/fortified-forest-outpost-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/fortified-forest-outpost-300dpi-vtt.jpg",
@@ -4393,7 +4393,7 @@
   },
   {
     "name": "Giant Eagle's Forest Lagoon",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/giant-eagle-s-forest-lagoon-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/giant-eagle-s-forest-lagoon-300dpi-vtt.jpg",
@@ -4402,7 +4402,7 @@
   },
   {
     "name": "Giant Eagle's Forest Lagoon Upper",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/giant-eagle-s-forest-lagoon-upper-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/giant-eagle-s-forest-lagoon-upper-300dpi-vtt.jpg",
@@ -4492,7 +4492,7 @@
   },
   {
     "name": "Glowing Alien Forest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/glowing-alien-forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/glowing-alien-forest-300dpi-vtt.jpg",
@@ -4897,7 +4897,7 @@
   },
   {
     "name": "Heart of the Forest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/heart-of-the-forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/heart-of-the-forest-300dpi-vtt.jpg",
@@ -5320,7 +5320,7 @@
   },
   {
     "name": "King's Forest Ruins",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/king-s-forest-ruins-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/king-s-forest-ruins-300dpi-vtt.jpg",
@@ -5959,7 +5959,7 @@
   },
   {
     "name": "Mines Forest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/mines-forest-300-dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/mines-forest-300-dpi-vtt.jpg",
@@ -5986,7 +5986,7 @@
   },
   {
     "name": "Mistborn Forest's Great Maw",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/mistborn-forest-s-great-maw-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/mistborn-forest-s-great-maw-300dpi-vtt.jpg",
@@ -5995,7 +5995,7 @@
   },
   {
     "name": "Mistborn Forest's Great Maw Basement",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/mistborn-forest-s-great-maw-basement-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/mistborn-forest-s-great-maw-basement-300dpi-vtt.jpg",
@@ -6004,7 +6004,7 @@
   },
   {
     "name": "Mistborn Forest's Great Maw Subbasement",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/mistborn-forest-s-great-maw-subbasement-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/mistborn-forest-s-great-maw-subbasement-300dpi-vtt.jpg",
@@ -6022,7 +6022,7 @@
   },
   {
     "name": "Mononoke Forest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/mononoke-forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/mononoke-forest-300dpi-vtt.jpg",
@@ -6031,7 +6031,7 @@
   },
   {
     "name": "Moonlit Ancient Forest Base Camp",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/moonlit-ancient-forest-base-camp-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/moonlit-ancient-forest-base-camp-300dpi-vtt.jpg",
@@ -6040,7 +6040,7 @@
   },
   {
     "name": "Moonlit Ancient Forest Base Camp Upper",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/moonlit-ancient-forest-base-camp-upper-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/moonlit-ancient-forest-base-camp-upper-300dpi-vtt.jpg",
@@ -6958,7 +6958,7 @@
   },
   {
     "name": "Primeval Rainforest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/primeval-rainforest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/primeval-rainforest-300dpi-vtt.jpg",
@@ -6985,7 +6985,7 @@
   },
   {
     "name": "Primitive Forest Village",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/primitive-forest-village-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/primitive-forest-village-300dpi-vtt.jpg",
@@ -6994,7 +6994,7 @@
   },
   {
     "name": "Primitive Forest Village Arena",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/primitive-forest-village-arena-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/primitive-forest-village-arena-300dpi-vtt.jpg",
@@ -7525,7 +7525,7 @@
   },
   {
     "name": "Ruined Forest Keep",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/ruined-forest-keep-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/ruined-forest-keep-300dpi-vtt.jpg",
@@ -8866,7 +8866,7 @@
   },
   {
     "name": "Snowy Forest Road",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/snowy-forest-road-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/snowy-forest-road-300dpi-vtt.jpg",
@@ -8965,7 +8965,7 @@
   },
   {
     "name": "Spider Forest & Infested Tower",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/spider-forest-infested-tower-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/spider-forest-infested-tower-300dpi-vtt.jpg",
@@ -8974,7 +8974,7 @@
   },
   {
     "name": "Spider Forest & Infested Tower 3",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/spider-forest-infested-tower-3-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/spider-forest-infested-tower-3-300dpi-vtt.jpg",
@@ -8983,7 +8983,7 @@
   },
   {
     "name": "Spider Forest & Infested Tower floor 2",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/spider-forest-infested-tower-floor-2-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/spider-forest-infested-tower-floor-2-300dpi-vtt.jpg",
@@ -9019,7 +9019,7 @@
   },
   {
     "name": "Sprites Forest Canyon",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/sprites-forest-canyon-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/sprites-forest-canyon-300dpi-vtt.jpg",
@@ -9784,7 +9784,7 @@
   },
   {
     "name": "The Rainbow Forest",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/the-rainbow-forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/the-rainbow-forest-300dpi-vtt.jpg",
@@ -10333,7 +10333,7 @@
   },
   {
     "name": "Trollgore Forest Grotto",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/trollgore-forest-grotto-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/trollgore-forest-grotto-300dpi-vtt.jpg",
@@ -10342,7 +10342,7 @@
   },
   {
     "name": "Trollgore Forest Grotto Basement",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/trollgore-forest-grotto-basement-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/trollgore-forest-grotto-basement-300dpi-vtt.jpg",
@@ -10351,7 +10351,7 @@
   },
   {
     "name": "Trollgore Forest Grotto Subbasement",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/trollgore-forest-grotto-subbasement-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/trollgore-forest-grotto-subbasement-300dpi-vtt.jpg",
@@ -11323,7 +11323,7 @@
   },
   {
     "name": "Waterfall lagoon (forest night)",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/waterfall-lagoon-forest-night-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/waterfall-lagoon-forest-night-300dpi-vtt.jpg",
@@ -11332,7 +11332,7 @@
   },
   {
     "name": "Waterfall lagoon (forest)",
-    "category": "Uncategorized",
+    "category": "Forest",
     "tags": [],
     "full": "https://cdn.druturos.com/v2/maps/waterfall-lagoon-forest-300dpi-vtt.jpg",
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/waterfall-lagoon-forest-300dpi-vtt.jpg",
