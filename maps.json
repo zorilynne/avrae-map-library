@@ -11718,5 +11718,16 @@
     "size": "15x22",
     "added": "2026-07-24",
     "thumbnail": "https://cdn.druturos.com/thumbnails/cliff-side-0i-LlJxL.webp"
+  },
+  {
+    "name": "Town Center",
+    "category": "Strix",
+    "tags": [
+      "tosc"
+    ],
+    "full": "https://cdn.druturos.com/maps/town-center-AwH5yV5G.jpg",
+    "size": "34x51",
+    "added": "2026-07-24",
+    "thumbnail": "https://cdn.druturos.com/thumbnails/town-center-vNkCKR40.webp"
   }
 ]
