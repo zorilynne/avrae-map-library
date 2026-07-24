@@ -11707,5 +11707,16 @@
     "size": "10x19",
     "added": "2026-07-24",
     "thumbnail": "https://cdn.druturos.com/thumbnails/shopping-district-dQkUTELw.webp"
+  },
+  {
+    "name": "Cliff Side",
+    "category": "Strix",
+    "tags": [
+      "tosc"
+    ],
+    "full": "https://cdn.druturos.com/maps/cliff-side-RpcJMhxa.png",
+    "size": "15x22",
+    "added": "2026-07-24",
+    "thumbnail": "https://cdn.druturos.com/thumbnails/cliff-side-0i-LlJxL.webp"
   }
 ]
