@@ -387,9 +387,25 @@
        "thumbnail": "<img …>" | "https://…/thumb.jpg",   // optional
        "full": "https://…/full.jpg",                      // used in command
        "size": "30x30" }
-   Copies:  !map -bg "<full>" -mapsize <size>
+   Copies:  !map -bg "<full>" -options c70 -mapsize <size>
+   Tweak MAP_OPTIONS / FIXED_MAPSIZE below to change every copy button at once.
    Categories auto-colour + auto-populate the filter row. No build step.
    ===================================================================== */
+
+/* ---- Avrae command format -------------------------------------------
+   One place that controls every copy button and the viewer command line.
+   MAP_OPTIONS  : text after -options. Empty string '' omits the flag.
+   FIXED_MAPSIZE: force one grid for every map, e.g. '30x20'.
+                  Set to null to use each map's own size from maps.json.
+   -------------------------------------------------------------------- */
+const MAP_OPTIONS   = 'c70';
+const FIXED_MAPSIZE = '30x20';
+
+function avraeCmd(map){
+  const size = FIXED_MAPSIZE || map.size || '30x20';
+  const opts = MAP_OPTIONS ? ` -options ${MAP_OPTIONS}` : '';
+  return `!map -bg "${map.full}"${opts} -mapsize ${size}`;
+}
 
 const gallery = document.getElementById('gallery');
 const catsBar = document.getElementById('cats');
@@ -492,8 +508,23 @@ function renderMaps(maps){
           Copy Avrae Command
         </button>
       </div>`;
-    card.querySelector('.media').addEventListener('click', e => {
-      if (e.target.closest('.star, .addset')) return;   // let those buttons do their job
+    // A dead thumbnail should never leave a blank card: fall back to the full
+    // image, then to a generated placeholder.
+    const thumbEl = card.querySelector('.media img');
+    if (thumbEl) {
+      thumbEl.addEventListener('error', () => {
+        if (!thumbEl.dataset.fellBack && map.full && thumbEl.src !== map.full) {
+          thumbEl.dataset.fellBack = '1';
+          thumbEl.src = map.full;
+        } else {
+          const host = thumbEl.parentElement;
+          thumbEl.remove();
+          host.insertAdjacentHTML('beforeend', placeholder(map.category));
+        }
+      });
+    }
+
+    card.querySelector('.media').addEventListener('click', e => {      if (e.target.closest('.star, .addset')) return;   // let those buttons do their job
       openViewer(map);
     });
     card.querySelector('.copy').addEventListener('click', e => copyMap(map, e.currentTarget));
@@ -519,7 +550,7 @@ function renderMaps(maps){
 
 /* ---- copy command (Avrae format preserved) ---- */
 async function copyMap(map, btn){
-  const cmd = `!map -bg "${map.full}" -mapsize ${map.size}`;
+  const cmd = avraeCmd(map);
   let ok = false;
   try{
     await navigator.clipboard.writeText(cmd); ok = true;
@@ -883,7 +914,7 @@ function renderViewer(){
     `${map.category||'\u2014'} \u00b7 <b>${map.size||'no size set'}</b>` +
     (Array.isArray(map.tags)&&map.tags.length ? ` \u00b7 ${map.tags.join(', ')}` : '') +
     ` &nbsp;(${vIndex+1} of ${shownList.length})`;
-  vEl('vCmd').textContent = `!map -bg "${map.full}" -mapsize ${map.size}`;
+  vEl('vCmd').textContent = avraeCmd(map);
 
   const img = vEl('vImg');
   img.src = map.full;                      // full resolution, not the thumbnail
