@@ -11680,5 +11680,32 @@
     "thumbnail": "https://cdn.druturos.com/v2/thumbnails/zebutaps-frozen-steps-300dpi-vtt.jpg",
     "size": "72x96",
     "added": "2026-07-24"
+  },
+  {
+    "name": "Shopping District Rain",
+    "category": "Strix",
+    "tags": [],
+    "full": "https://cdn.druturos.com/maps/shopping-district-rain-Md64vNYZ.png",
+    "size": "10x19",
+    "added": "2026-07-24",
+    "thumbnail": "https://cdn.druturos.com/thumbnails/shopping-district-rain-dDoid0Wf.webp"
+  },
+  {
+    "name": "Shopping District",
+    "category": "Strix",
+    "tags": [],
+    "full": "https://cdn.druturos.com/maps/shopping-district-L2uUtEB8.png",
+    "size": "10x19",
+    "added": "2026-07-24",
+    "thumbnail": "https://cdn.druturos.com/thumbnails/shopping-district-WoQ3YBUp.webp"
+  },
+  {
+    "name": "Shopping District",
+    "category": "Strix",
+    "tags": [],
+    "full": "https://cdn.druturos.com/maps/shopping-district-JWMmlBse.png",
+    "size": "10x19",
+    "added": "2026-07-24",
+    "thumbnail": "https://cdn.druturos.com/thumbnails/shopping-district-dQkUTELw.webp"
   }
 ]
